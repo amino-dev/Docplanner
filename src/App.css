@@ -1,0 +1,79 @@
+body {
+  font-family: Roboto,Arial,sans-serif;
+  color: #747474;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  width: 268px;
+  height: 33px;
+  pointer-events: none;
+}
+
+.Nav-link {
+  color: #ababab !important;
+  font-size: 0.9375rem;
+}
+
+.card-patients,.card-doctors,.card-clinics {
+  color: white;
+  border-radius: 10px;
+  width: 20rem;
+  height: 345px;
+}
+.card-patients {
+  background-color:#00ccb1;
+}
+
+.card-doctors {
+  background-color: #3d83df;
+}
+
+.card-clinics {
+  background-color: #1b2734;
+}
+
+.card:hover{
+  opacity: 0.9;
+}
+.card-text {
+  font-size: 1.5rem;
+}
+
+.Nav-link:hover, .Nav-link:focus{
+  color: #00b39b !important;
+}
+
+.title {
+  font-size: 2rem  !important;
+  color: #00b39b !important;
+  letter-spacing: .15rem;
+}
+
+.paragraphs {
+  line-height: 1.75;
+}
+
+.select, .select:focus, .clinik-select, .clinik-select:focus {
+  font-size: 1.15rem;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  padding: 0 0.4em 0 0;
+  outline: 0;
+  text-transform: none;
+  text-decoration: underline;
+  cursor: pointer;
+  color: #fff;
+}
+
+.select, .select:focus {
+  margin-top: 3rem;
+}
+
+.clinik-select, .clinik-select:focus {
+  margin-top: 0.5rem;
+}

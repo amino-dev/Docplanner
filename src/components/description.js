@@ -14,7 +14,7 @@ function Description(){
            </div>
            <img src={img} className="pt-3" alt="img" />
        </div>
-       <div className="col-md-6">
+       <div className="col-md-6 description-cards">
            <div>
               <div className="row">
                   <div className="col-md-5 col-12 description-card mt-4 mr-3">

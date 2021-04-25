@@ -8,6 +8,8 @@ import Cards from './components/cart-top'
 import Brand from './components/brand';
 import Description from './components/description';
 import Paragraphbottom from './components/paragraph-bottom';
+import Cardsbottom from './components/cards-bottom'
+import Footer from './components/footer'
 
 
 function App() {
@@ -21,6 +23,8 @@ function App() {
       <Brand />
       <Description />
       <Paragraphbottom />
+      <Cardsbottom/>
+      <Footer />
     </div>
  
   );

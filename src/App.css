@@ -156,6 +156,11 @@ text-shadow: none;
   font-size: .8125em;
 }
 
+.description-cards {
+  padding-right: 6rem;
+
+}
+
 .description-paragraphs, .paragraph-bottom-section p {
   font-family: Roboto,Arial,sans-serif;
   color: #747474;
@@ -171,5 +176,57 @@ text-shadow: none;
 
 .paragraph-bottom-section p {
   line-height: 1.7142857143;
-  font-size: .875em
+  font-size: .875rem;
+}
+
+.country {
+  font-size: 1.125em;
+  color: #747474;
+  font-family: Roboto,Arial,sans-serif;
+}
+
+.btn-country {
+  font-size: 0.7em;
+  letter-spacing: .04em;
+  font-family: Roboto,Arial,sans-serif;
+  text-transform: uppercase;
+}
+
+.footer-button {
+  font-size: 0.75em;
+  font-family: Roboto,Arial,sans-serif;
+  text-transform: uppercase; 
+}
+
+.btn {
+  background: #3d83df;
+}
+
+.btn:hover {
+  color: #fff;
+  background: #1662c6;
+}
+
+/*.bottom-card:hover {
+  box-shadow:
+  0 1.9px 5.3px rgba(0, 0, 0, 0.042),
+  0 5.8px 17.9px rgba(0, 0, 0, 0.058),
+  0 19px 80px rgba(0, 0, 0, 0.13)
+;
+  transition: box-shadow .2s ease 0s;
+  border: 1px solid rgba(0,0,0,.03);
+  border-radius: 6px;
+
+}*/
+
+.subscription h2 {
+  font-size: 2.1428571429em;
+  color: #333;
+}
+
+.main-footer {
+  font-size: 0.75rem;
+  color: #ababab;
+  font-family: Roboto,Arial,sans-serif;
+  border-top: .8px solid rgb(228, 228, 228)
 }

@@ -1,4 +1,20 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Work Sans', sans-serif;
+  overflow-x: hidden;
+}
+
+::selection{
+background: #00b39b;
+color: #fff;
+text-shadow: none;
+}
+
+.paragraphs {
   font-family: Roboto,Arial,sans-serif;
   color: #747474;
 }
@@ -13,17 +29,23 @@ body {
   pointer-events: none;
 }
 
-.Nav-link {
+.nav-link {
+  font-family: Roboto,Arial,sans-serif !important;
   color: #ababab !important;
-  font-size: 0.9375rem;
+  font-size: 0.9375rem !important;
 }
 
 .card-patients,.card-doctors,.card-clinics {
   color: white;
   border-radius: 10px;
-  width: 20rem;
-  height: 345px;
+  width: 19.5rem;
+  height: 23.5rem;
 }
+
+.top-cards {
+  margin-left: 2.5rem;
+}
+
 .card-patients {
   background-color:#00ccb1;
 }
@@ -39,11 +61,12 @@ body {
 .card:hover{
   opacity: 0.9;
 }
+
 .card-text {
   font-size: 1.5rem;
 }
 
-.Nav-link:hover, .Nav-link:focus{
+.nav-link:hover, .nav-link:focus{
   color: #00b39b !important;
 }
 
@@ -57,9 +80,9 @@ body {
   line-height: 1.75;
 }
 
-.select, .select:focus, .clinik-select, .clinik-select:focus {
+.select, .clinik-select {
   font-size: 1.15rem;
-  background: transparent;
+  background: none;
   border: 0;
   border-radius: 0;
   padding: 0 0.4em 0 0;
@@ -70,10 +93,83 @@ body {
   color: #fff;
 }
 
-.select, .select:focus {
-  margin-top: 3rem;
+.select {
+  margin-top: 5rem;
 }
 
-.clinik-select, .clinik-select:focus {
-  margin-top: 0.5rem;
+.clinik-select {
+  margin-top: 1.5rem;
+}
+
+.brand-text {
+  font-size: 1.625em;
+  color: #00b39b;
+  line-height: 2.5rem;
+}
+
+.brand-links {
+  padding-left: 6.5rem;
+}
+
+.brands-logos a path {
+  fill: #ababab;
+}
+
+.brands-logos a img {
+  filter: grayscale(100%);
+}
+
+.brands-logos a:hover path {
+  fill: #00bfa5;
+}
+
+.brands-logos a:hover img {
+  filter: grayscale(0%);
+}
+
+.description-section {
+  background: #e5faf8;
+  background-image: linear-gradient(-45deg,rgba(0,204,177,.01) 5%,rgba(61,199,223,.1));
+}
+
+.description-text {
+  margin-left: 3.5rem;
+  line-height: 3rem;
+  color: #00b39b;
+}
+
+.description-paragraph {
+  font-family: Roboto,Arial,sans-serif;
+  font-size: .875em;
+  line-height: 1.7142857143;
+  margin-left: 3.5rem;
+  color: #747474;
+  max-width: 500px;
+}
+
+.description-card {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,.05);
+  height: 250px;
+  text-align: center;
+  font-size: .8125em;
+}
+
+.description-paragraphs, .paragraph-bottom-section p {
+  font-family: Roboto,Arial,sans-serif;
+  color: #747474;
+}
+
+.visits-img, .doctors-img {
+  margin-top: 1.4rem;
+}
+
+.description-card h4, .paragraph-bottom-section h3 {
+  color: #00b39b;
+}
+
+.paragraph-bottom-section p {
+  line-height: 1.7142857143;
+  font-size: .875em
 }

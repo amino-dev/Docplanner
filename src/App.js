@@ -5,6 +5,11 @@ import  Img from "./components/img"
 import  Title from "./components/title"
 import Paragraphs from './components/parpagraph'
 import Cards from './components/cart-top'
+import Brand from './components/brand';
+import Description from './components/description';
+import Paragraphbottom from './components/paragraph-bottom';
+
+
 function App() {
   return (
     <div>
@@ -12,7 +17,10 @@ function App() {
       <Img />
       <Title />
       <Paragraphs />
-      <Cards/>
+      <Cards />
+      <Brand />
+      <Description />
+      <Paragraphbottom />
     </div>
  
   );

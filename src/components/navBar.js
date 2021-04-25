@@ -8,9 +8,9 @@ function NavBar(){
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="ml-auto pt-1">
-      <Nav.Link className="Nav-link" href="#Abous us">About us</Nav.Link>
-      <Nav.Link className="Nav-link" href="#Career">Career</Nav.Link>
-      <Nav.Link className="Nav-link" href="#Departments">Departments</Nav.Link>
+      <Nav.Link className="nav-link" href="#Abous us">About us</Nav.Link>
+      <Nav.Link className="nav-link" href="#Career">Career</Nav.Link>
+      <Nav.Link className="nav-link" href="#Departments">Departments</Nav.Link>
     </Nav>
   </Navbar.Collapse>
 </Navbar>

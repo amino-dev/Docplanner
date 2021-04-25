@@ -6,42 +6,46 @@ import  Select  from "./select"
 import  Clinic from "./clinik-select"
 function Cards(){
     return(
- <div  className="d-flex mt-5 px-5 mx-5">
-    <div className="">
-    <Card className="card card-patients p-2 ml-5 mr-3">
+ <div  className="container mt-5 pt-3 px-5 mx-5">
+    <div className="row top-cards">
+    <div className="col-md-4">
+    <Card className="card-patients">
     <Card.Body>
       <Card.Title><img src={iconPatients} className="" alt="logo" /></Card.Title>
       <Card.Text>
-        <h3 className="py-2">For patients</h3>
+        <h2 className="py-2">For patients</h2>
         <p className="card-text">Find a doctor, book a visit and solve any health-related doubt</p> 
         <Select />
       </Card.Text>
     </Card.Body>
     </Card>
     </div>
-    <div className="">
-    <Card className="card  card-doctors p-2 mr-3">
+    <div className="col-md-4">
+    <Card className="card-doctors">
     <Card.Body>
       <Card.Title><img src={iconDoctors} className="" alt="logo" /></Card.Title>
       <Card.Text>
-        <h3 className="py-2">For doctors</h3>
+        <h2 className="py-2">For doctors</h2>
         <p className="card-text">Save time managing visits and cut no-shows by half</p> 
         <Select />
       </Card.Text>
     </Card.Body>
     </Card>
     </div>
-    <div className="">
-    <Card className="card card-clinics p-2">
+    <div className="col-md-4">
+    <Card className="card-clinics">
     <Card.Body>
       <Card.Title><img src={iconClinics} className="" alt="logo" /></Card.Title>
       <Card.Text>
-        <h3 className="py-2">For clinics</h3>
+        <h2 className="py-2">For clinics</h2>
         <p className="card-text">Deliver an exceptional patient experience in your clinic</p> 
         <Clinic/>
       </Card.Text>
     </Card.Body>
     </Card>
+    </div>
+
+
     </div>
  </div>
     ) 

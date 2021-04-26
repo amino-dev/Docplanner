@@ -35,13 +35,14 @@ text-shadow: none;
   font-size: 0.9375rem !important;
 }
 
-.card-patients,.card-doctors,.card-clinics {
+.card-patients,.card-doctors,.card-clinics,.card {
   color: white;
   border-radius: 10px;
   width: 19.5rem;
   height: 23.5rem;
 }
 
+/*
 .top-cards {
   margin-left: 2.5rem;
 }
@@ -56,6 +57,11 @@ text-shadow: none;
 
 .card-clinics {
   background-color: #1b2734;
+}
+*/
+
+.card-top-text {
+  color: #fff;
 }
 
 .card:hover{
@@ -187,6 +193,7 @@ text-shadow: none;
 
 .btn-country {
   font-size: 0.7em;
+  height: 2rem;
   letter-spacing: .04em;
   font-family: Roboto,Arial,sans-serif;
   text-transform: uppercase;
@@ -205,6 +212,15 @@ text-shadow: none;
 .btn:hover {
   color: #fff;
   background: #1662c6;
+}
+
+.cities {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cities>* {
+  flex: 0 0 33.3333%;
 }
 
 /*.bottom-card:hover {
